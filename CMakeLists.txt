@@ -3,4 +3,4 @@ project(integrals)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(integrals main.cpp tf/tf.cpp)
+add_executable(integrals main.cpp integralTrapezoid/integralTrapezoid.cpp integralTrapezoid/integralTrapezoid.h tf/functionType.h)
