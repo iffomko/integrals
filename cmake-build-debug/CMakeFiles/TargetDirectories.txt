@@ -1,0 +1,3 @@
+C:/Users/Iluha/Documents/github_repos/integrals/cmake-build-debug/CMakeFiles/integrals.dir
+C:/Users/Iluha/Documents/github_repos/integrals/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Iluha/Documents/github_repos/integrals/cmake-build-debug/CMakeFiles/rebuild_cache.dir
