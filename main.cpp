@@ -1,6 +1,7 @@
 #include <iostream>
 #include "integralTrapezoid/integralTrapezoid.h"
 #include "leftIntegral/leftIntegral.h"
+#include "rightIntegral/rightIntegral.h"
 
 double f1(double x) {
     return (x * x * x - x - 9);
@@ -21,6 +22,7 @@ double test(double x) {
 int main() {
     std::cout << integralTrapezoid(1, 3, 0.00001, test) << std::endl;
     std::cout << leftIntegral(1, 3, 0.00001, test) << std::endl;
-
+    std::cout << rightIntegral(1, 3, 0.00001, test) << std::endl;
+    
     return 0;
 }

@@ -67,6 +67,12 @@ build CMakeFiles/integrals.dir/leftIntegral/leftIntegral.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\integrals.dir
   OBJECT_FILE_DIR = CMakeFiles\integrals.dir\leftIntegral
 
+build CMakeFiles/integrals.dir/rightIntegral/rightIntegral.cpp.obj: CXX_COMPILER__integrals_Debug C$:/Users/Iluha/Documents/github_repos/integrals/rightIntegral/rightIntegral.cpp || cmake_object_order_depends_target_integrals
+  DEP_FILE = CMakeFiles\integrals.dir\rightIntegral\rightIntegral.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\integrals.dir
+  OBJECT_FILE_DIR = CMakeFiles\integrals.dir\rightIntegral
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target integrals
@@ -75,7 +81,7 @@ build CMakeFiles/integrals.dir/leftIntegral/leftIntegral.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable integrals.exe
 
-build integrals.exe: CXX_EXECUTABLE_LINKER__integrals_Debug CMakeFiles/integrals.dir/main.cpp.obj CMakeFiles/integrals.dir/integralTrapezoid/integralTrapezoid.cpp.obj CMakeFiles/integrals.dir/leftIntegral/leftIntegral.cpp.obj
+build integrals.exe: CXX_EXECUTABLE_LINKER__integrals_Debug CMakeFiles/integrals.dir/main.cpp.obj CMakeFiles/integrals.dir/integralTrapezoid/integralTrapezoid.cpp.obj CMakeFiles/integrals.dir/leftIntegral/leftIntegral.cpp.obj CMakeFiles/integrals.dir/rightIntegral/rightIntegral.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\integrals.dir

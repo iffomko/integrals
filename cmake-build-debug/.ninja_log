@@ -1,11 +1,8 @@
 # ninja log v5
 40	306	6749360814731851	CMakeFiles/integrals.dir/integralTrapezoid/integralTrapezoid.cpp.obj	d54e59cfaf6d981f
 29	316	6749360814821863	CMakeFiles/integrals.dir/leftIntegral/leftIntegral.cpp.obj	957e0414e30559cc
-1	458	6749360816252180	CMakeFiles/integrals.dir/main.cpp.obj	3af465f761762aa2
-459	753	6749360819132830	integrals.exe	9fe057e4059c9aa8
-3	406	6749360996991955	CMakeFiles/integrals.dir/main.cpp.obj	3af465f761762aa2
-407	673	6749360999602566	integrals.exe	9fe057e4059c9aa8
-3	409	6749361105304819	CMakeFiles/integrals.dir/main.cpp.obj	3af465f761762aa2
-410	662	6749361107755500	integrals.exe	9fe057e4059c9aa8
 3	393	6749361324005689	CMakeFiles/integrals.dir/main.cpp.obj	3af465f761762aa2
 394	644	6749361326416298	integrals.exe	9fe057e4059c9aa8
+31	187	6749366183369005	CMakeFiles/integrals.dir/rightIntegral/rightIntegral.cpp.obj	6b6aac1140b07b97
+4	391	6749366185399539	CMakeFiles/integrals.dir/main.cpp.obj	3af465f761762aa2
+391	647	6749366187910027	integrals.exe	c932a63c3c7cc7ed
