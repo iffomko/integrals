@@ -8,5 +8,5 @@
 
 #endif //INTEGRALS_FUNCTIONTYPE_H
 
-using tf = double (*)(double, double, double);
 using temp = double (*)(double);
+using tf = double (*)(double, double, double, temp);
